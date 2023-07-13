@@ -1,4 +1,4 @@
-async function resize(image_file,max_size=2080){
+async function resize(image_file,max_size=1000){
     // Load the image
     // Get as image data
     const imageBitmap = await createImageBitmap(image_file);
