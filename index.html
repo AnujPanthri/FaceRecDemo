@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="loader">
+            <h4 id="loader_text">Choose an image for face recognition</h4>
+        </div>
+
+        <div id="face_box" onclick="this.querySelector('input').click();">
+            <input type="file" accept="image/*;" style="display:None;" onchange="predict(this);">
+            <span>
+                No Image Selected
+            </span>
+            <img >
+
+        </div>
+        <!-- <div id="enhancerUIContainer" style="height: 100vh;"></div> -->
+        <div class="a h"></div>
+    </body>
+    <script src="script.js"></script>
+</html>
